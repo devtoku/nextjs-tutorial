@@ -4,8 +4,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      volumes:
-      - .:/usr/src/app
-    command: sh -c "cd nextjs-tutorial && npm run dev"
+    user: node
+    volumes:
+      - .:/home/node
+    command: sh -c "cd nextjs-tsx && npm run dev"
     ports:
       - "3000:3000"
