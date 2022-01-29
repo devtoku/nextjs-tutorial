@@ -6,6 +6,9 @@ Next.jsのチュートリアルをやっていくリポジトリ。
 ## Setup
 予めNext.jsの初期化だけを破棄前提のコンテナで済ませる。
 
+Docker内のワーキングディレクトリ(WORK_DIR)については詰まったところをQiitaで少し覚え書きしている。
+
+https://qiita.com/devtoku/items/b88fc68d874b787a541e
 
 JavaScriptの場合
 
