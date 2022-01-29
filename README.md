@@ -1,5 +1,5 @@
 # nextjs-tutorial
-Next.jsのチュートリアルをやっていくリポ。
+Next.jsのチュートリアルをやっていくリポジトリ。
 
 並行してDockerの確認も行っていく。
 
