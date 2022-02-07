@@ -1,0 +1,123 @@
+0 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'update' ]
+1 info using npm@8.3.0
+2 info using node@v17.3.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/home/node/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 2ms
+13 timing config:load:global Completed in 3ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 11ms
+18 timing npm:load:configload Completed in 11ms
+19 timing npm:load:setTitle Completed in 1ms
+20 timing config:load:flatten Completed in 3ms
+21 timing npm:load:display Completed in 3ms
+22 verbose logfile /home/node/.npm/_logs/2022-02-07T12_56_52_010Z-debug-0.log
+23 timing npm:load:logFile Completed in 5ms
+24 timing npm:load:timers Completed in 0ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load Completed in 21ms
+27 timing arborist:ctor Completed in 1ms
+28 silly logfile start cleaning logs, removing 1 files
+29 timing idealTree:init Completed in 9ms
+30 timing idealTree:userRequests Completed in 1ms
+31 silly idealTree buildDeps
+32 silly fetch manifest classnames@^2.3.1
+33 timing arborist:ctor Completed in 0ms
+34 http fetch GET 200 https://registry.npmjs.org/classnames 324ms (cache revalidated)
+35 silly fetch manifest gray-matter@^4.0.3
+36 http fetch GET 200 https://registry.npmjs.org/gray-matter 636ms (cache revalidated)
+37 silly fetch manifest @types/node@^17.0.15
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 10ms (cache hit)
+39 silly placeDep ROOT @types/node@17.0.15 OK for:  want: ^17.0.15
+40 silly placeDep ROOT classnames@2.3.1 OK for:  want: ^2.3.1
+41 silly placeDep ROOT gray-matter@4.0.3 OK for:  want: ^4.0.3
+42 silly fetch manifest js-yaml@^3.13.1
+43 silly fetch manifest kind-of@^6.0.2
+44 silly fetch manifest section-matter@^1.0.0
+45 silly fetch manifest strip-bom-string@^1.0.0
+46 http fetch GET 200 https://registry.npmjs.org/js-yaml 71ms (cache revalidated)
+47 http fetch GET 200 https://registry.npmjs.org/kind-of 179ms (cache revalidated)
+48 http fetch GET 200 https://registry.npmjs.org/strip-bom-string 843ms (cache revalidated)
+49 http fetch GET 200 https://registry.npmjs.org/section-matter 939ms (cache revalidated)
+50 timing idealTree:#root Completed in 1936ms
+51 timing idealTree:node_modules/@types/node Completed in 0ms
+52 timing idealTree:node_modules/classnames Completed in 0ms
+53 silly placeDep ROOT js-yaml@3.14.1 OK for: gray-matter@4.0.3 want: ^3.13.1
+54 silly placeDep ROOT kind-of@6.0.3 OK for: gray-matter@4.0.3 want: ^6.0.2
+55 silly placeDep ROOT section-matter@1.0.0 OK for: gray-matter@4.0.3 want: ^1.0.0
+56 silly placeDep ROOT strip-bom-string@1.0.0 OK for: gray-matter@4.0.3 want: ^1.0.0
+57 silly fetch manifest argparse@^1.0.7
+58 silly fetch manifest esprima@^4.0.0
+59 silly fetch manifest extend-shallow@^2.0.1
+60 http fetch GET 200 https://registry.npmjs.org/esprima 71ms (cache revalidated)
+61 http fetch GET 200 https://registry.npmjs.org/argparse 87ms (cache revalidated)
+62 http fetch GET 200 https://registry.npmjs.org/extend-shallow 101ms (cache revalidated)
+63 timing idealTree:node_modules/gray-matter Completed in 131ms
+64 silly placeDep ROOT argparse@1.0.10 OK for: js-yaml@3.14.1 want: ^1.0.7
+65 silly placeDep ROOT esprima@4.0.1 OK for: js-yaml@3.14.1 want: ^4.0.0
+66 silly fetch manifest sprintf-js@~1.0.2
+67 http fetch GET 200 https://registry.npmjs.org/sprintf-js 87ms (cache revalidated)
+68 timing idealTree:node_modules/js-yaml Completed in 99ms
+69 silly placeDep ROOT sprintf-js@1.0.3 OK for: argparse@1.0.10 want: ~1.0.2
+70 timing idealTree:node_modules/argparse Completed in 5ms
+71 timing idealTree:node_modules/esprima Completed in 0ms
+72 timing idealTree:node_modules/kind-of Completed in 0ms
+73 silly placeDep ROOT extend-shallow@2.0.1 OK for: section-matter@1.0.0 want: ^2.0.1
+74 silly fetch manifest is-extendable@^0.1.0
+75 http fetch GET 200 https://registry.npmjs.org/is-extendable 74ms (cache revalidated)
+76 timing idealTree:node_modules/section-matter Completed in 85ms
+77 silly placeDep ROOT is-extendable@0.1.1 OK for: extend-shallow@2.0.1 want: ^0.1.0
+78 timing idealTree:node_modules/extend-shallow Completed in 6ms
+79 timing idealTree:node_modules/is-extendable Completed in 2ms
+80 timing idealTree:node_modules/sprintf-js Completed in 0ms
+81 timing idealTree:node_modules/strip-bom-string Completed in 0ms
+82 timing idealTree:buildDeps Completed in 2269ms
+83 timing idealTree:fixDepFlags Completed in 4ms
+84 timing idealTree Completed in 2287ms
+85 timing reify:loadTrees Completed in 2288ms
+86 timing reify:diffTrees Completed in 7ms
+87 silly reify moves {}
+88 timing reify:retireShallow Completed in 0ms
+89 timing reify:createSparse Completed in 0ms
+90 timing reify:loadBundles Completed in 0ms
+91 silly audit bulk request {
+91 silly audit   '@types/node': [ '17.0.15' ],
+91 silly audit   classnames: [ '2.3.1' ],
+91 silly audit   'gray-matter': [ '4.0.3' ],
+91 silly audit   'js-yaml': [ '3.14.1' ],
+91 silly audit   'kind-of': [ '6.0.3' ],
+91 silly audit   'section-matter': [ '1.0.0' ],
+91 silly audit   'strip-bom-string': [ '1.0.0' ],
+91 silly audit   argparse: [ '1.0.10' ],
+91 silly audit   esprima: [ '4.0.1' ],
+91 silly audit   'sprintf-js': [ '1.0.3' ],
+91 silly audit   'extend-shallow': [ '2.0.1' ],
+91 silly audit   'is-extendable': [ '0.1.1' ]
+91 silly audit }
+92 timing reify:unpack Completed in 1ms
+93 timing reify:unretire Completed in 0ms
+94 timing build:queue Completed in 0ms
+95 timing build:deps Completed in 0ms
+96 timing build Completed in 0ms
+97 timing reify:build Completed in 0ms
+98 timing reify:trash Completed in 0ms
+99 timing reify:save Completed in 5ms
+100 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 248ms
+101 timing auditReport:getReport Completed in 250ms
+102 silly audit report {}
+103 timing auditReport:init Completed in 0ms
+104 timing reify:audit Completed in 252ms
+105 timing reify Completed in 2557ms
+106 timing command:update Completed in 2568ms
+107 verbose exit 0
+108 timing npm Completed in 2806ms
+109 info ok
